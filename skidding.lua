@@ -15,7 +15,7 @@ local ChatBypass; ChatBypass = hookmetamethod(Remote, "__namecall", function(sel
     if self == Remote and Method == "FireServer" then
         local Message = Arguments[1]
         local Split = Message:split(" ")
-        local FinalMessage = "asdasd"
+        local FinalMessage = ""
 
         for _, x in next, Split do
             for _, Bypass in next, Bypasses do
