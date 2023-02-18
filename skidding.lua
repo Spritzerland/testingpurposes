@@ -3,7 +3,7 @@
 -- Made by AnthonyIsntHere and Not Scary!
 -- Anyone who says otherwise is stupid :p
 
-local Bypasses = loadstring(game:HttpGet("https://raw.githubusercontent.com/Spritzerland/testingpurposes/main/Bypasses.lua?token=GHSAT0AAAAAAB5ZVIFZTD4YCBE3TCMLAGKCY7RKQVQ"))()
+local Bypasses = loadstring(game:HttpGet("https://raw.githubusercontent.com/Spritzerland/testingpurposes/main/Bypasses.lua"))()
 
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
 local Remote = ReplicatedStorage:FindFirstChild("SayMessageRequest", true)
