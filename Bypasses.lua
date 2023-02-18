@@ -1,3 +1,3 @@
 local Bypasses = {
-  ["test"] = "it worked"
+  ["test"] = "it worked",
   }
